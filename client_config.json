@@ -1,0 +1,12 @@
+{
+"server_host": "127.0.0.1",
+"server_port": 10001,
+"video_path": "",
+"total_models": 19,
+"output_file": "output.json",
+"image_list": "../datasets/test_images/input.txt",
+"starting_model": 0,
+
+"network_shaping": 0,
+"shaping_file": "../simulation/periodic_100-5Mbit-20s.txt"
+}

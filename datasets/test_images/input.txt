@@ -1,0 +1,3 @@
+../datasets/test_images/crossroad.jpg
+../datasets/test_images/crossroad2.jpg
+../datasets/test_images/dog.jpg

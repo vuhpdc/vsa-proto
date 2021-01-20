@@ -1,0 +1,16 @@
+diff --git a/include/yolo_v2_class.hpp b/include/yolo_v2_class.hpp
+index 360c332..6fe3293 100644
+--- a/include/yolo_v2_class.hpp
++++ b/include/yolo_v2_class.hpp
+@@ -68,10 +68,10 @@ extern "C" LIB_API bool built_with_opencv();
+ extern "C" LIB_API void send_json_custom(char const* send_buf, int port, int timeout);
+ 
+ class Detector {
+-    std::shared_ptr<void> detector_gpu_ptr;
+     std::deque<std::vector<bbox_t>> prev_bbox_vec_deque;
+     std::string _cfg_filename, _weight_filename;
+ public:
++    std::shared_ptr<void> detector_gpu_ptr;
+     const int cur_gpu_id;
+     float nms = .4;
+     bool wait_stream;

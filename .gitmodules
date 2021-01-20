@@ -1,0 +1,6 @@
+[submodule "darknet"]
+	path = darknet
+	url = https://github.com/AlexeyAB/darknet.git
+[submodule "metrics/object_detection_metrics"]
+	path = metrics/object_detection_metrics
+	url = https://github.com/vnigade/Object-Detection-Metrics.git

@@ -1,0 +1,7 @@
+sudo modprobe v4l2loopback
+
+v4l2loopback-ctl set-fps 30 /dev/video2
+
+ffmpeg -re -f concat -i list.txt -f v4l2 /dev/video2
+
+sudo modprobe -r v4l2loopback

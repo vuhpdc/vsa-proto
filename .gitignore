@@ -1,0 +1,10 @@
+/build/
+# /darknet/
+/testing/
+/datasets/coco
+/datasets/pkummd
+
+*.swp
+Pipfile*
+.vscode
+*.zip

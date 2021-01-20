@@ -1,0 +1,9 @@
+{
+"server_port": 10001,
+"total_models": 19,
+"starting_model": 0,
+
+"darknet_data_dir": "../darknet/data",
+"darknet_cfg_file": "../darknet/cfg/yolov4.cfg",
+"darknet_weight_file": "../darknet/yolov4.weights"
+}
